@@ -27,7 +27,7 @@ const Property = ({
                 {bedrooms} bedroom{isMultiple(bedrooms)} {bathrooms} bathroom
                 {isMultiple(bathrooms)}
             </h4>
-            <div className="md:flex overflow-hidden rounded-xl md:max-h-72">
+            <div className="md:flex overflow-hidden rounded-xl md:max-h-72 w-10/12 mb-5">
                 <Image
                     identifier="main-image"
                     image={mainImage}
@@ -47,8 +47,8 @@ const Property = ({
                 </div>
             </div>
 
-            <div className="section">
-                <div className="information">
+            <div>
+                <div>
                     <hr />
                     <h4 className="text-lg mt-3">
                         <b>Terms and Conditions</b>
